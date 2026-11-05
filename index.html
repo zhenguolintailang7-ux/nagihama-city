@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>凪ヶ浜市公式ホームページ</title>
+<meta name="description" content="凪ヶ浜市の公式ホームページです。市政情報、暮らしの手続き、観光情報などをご案内します。">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN",sans-serif;
+  color:#263746;
+  background:#fff;
+  line-height:1.8;
+}
+a{color:inherit;text-decoration:none}
+.container{width:92%;max-width:1100px;margin:auto}
+.topbar{
+  background:#f3f6f8;
+  font-size:12px;
+  padding:7px 0;
+  color:#526575;
+}
+header{border-bottom:1px solid #e2e8ed}
+.header-main{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 0;
+}
+.logo{font-size:25px;font-weight:700;letter-spacing:2px}
+.logo small{display:block;font-size:11px;letter-spacing:3px;color:#738493}
+.search{
+  border:1px solid #ccd6de;
+  padding:8px 12px;
+  border-radius:4px;
+  font-size:12px;
+  color:#61717e;
+}
+nav{
+  display:flex;
+  overflow-x:auto;
+  border-top:1px solid #edf0f2;
+  white-space:nowrap;
+}
+nav a{
+  padding:13px 18px;
+  font-size:13px;
+  font-weight:600;
+  border-right:1px solid #edf0f2;
+}
+nav a:hover{background:#f0f5f8;color:#28658a}
+.hero{
+  position:relative;
+  height:300px;
+  background:
+  linear-gradient(90deg,rgba(15,37,54,.65),rgba(15,37,54,.05)),
+  url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85") center/cover;
+  display:flex;
+  align-items:center;
+  color:white;
+}
+.hero-content{padding:25px}
+.hero h1{font-size:27px;line-height:1.6;margin:0 0 10px}
+.hero p{font-size:13px;margin:0}
+.section{padding:35px 0}
+.section-title{
+  font-size:21px;
+  border-left:4px solid #427b9d;
+  padding-left:13px;
+  margin:0 0 20px;
+}
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+}
+.menu-item{
+  border:1px solid #dce4e9;
+  padding:17px 12px;
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:13px;
+  font-weight:600;
+  background:#fff;
+}
+.menu-item:after{content:"›";font-size:22px;color:#54819b}
+.menu-item:hover{background:#f3f7f9}
+.notice{background:#f5f7f8}
+.news-list{list-style:none;padding:0;margin:0}
+.news-list li{
+  border-bottom:1px solid #dce3e8;
+  padding:14px 0;
+  font-size:13px;
+}
+.date{color:#758591;font-size:11px;display:block}
+.tag{
+  display:inline-block;
+  background:#e7f0f5;
+  color:#386783;
+  padding:1px 8px;
+  border-radius:3px;
+  font-size:10px;
+  margin-right:7px;
+}
+.photo-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.photo-card img{
+  width:100%;
+  height:125px;
+  object-fit:cover;
+  border-radius:4px;
+}
+.photo-card p{font-size:13px;font-weight:600;margin:5px 0}
+.info-box{
+  background:#f3f6f8;
+  padding:20px;
+  border-radius:5px;
+  font-size:13px;
+}
+footer{
+  background:#263d50;
+  color:white;
+  padding:30px 0 18px;
+  margin-top:20px;
+}
+footer a{color:white}
+.footer-name{font-size:21px;font-weight:700}
+.footer-small{font-size:11px;color:#d2dce3}
+.footer-bottom{
+  border-top:1px solid #637687;
+  margin-top:20px;
+  padding-top:12px;
+  font-size:10px;
+  color:#d2dce3;
+}
+@media(min-width:700px){
+  .hero{height:420px}
+  .hero h1{font-size:38px}
+  .menu-grid{grid-template-columns:repeat(3,1fr)}
+  .photo-grid{grid-template-columns:repeat(3,1fr)}
+  .photo-card img{height:190px}
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="container">凪ヶ浜市公式ホームページ</div>
+</div>
+
+<header>
+  <div class="container header-main">
+    <a href="index.html" class="logo">
+      凪ヶ浜市
+      <small>NAGIHAMA CITY</small>
+    </a>
+    <span class="search">サイト内検索　⌕</span>
+  </div>
+
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="news.html">市からのお知らせ</a>
+    <a href="government.html">市政情報</a>
+    <a href="life.html">暮らし・手続き</a>
+    <a href="events.html">観光・イベント</a>
+    <a href="office.html">市役所案内</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <h1>人と自然が調和する、<br>豊かなまち 凪ヶ浜</h1>
+    <p>暮らしやすさと、未来への希望が広がるまち。</p>
+  </div>
+</section>
+
+<main>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">目的から探す</h2>
+    <div class="menu-grid">
+      <a class="menu-item" href="life.html">戸籍・住民票</a>
+      <a class="menu-item" href="life.html">税金・保険</a>
+      <a class="menu-item" href="life.html">子育て・教育</a>
+      <a class="menu-item" href="life.html">健康・福祉</a>
+      <a class="menu-item" href="life.html">ごみ・環境</a>
+      <a class="menu-item" href="office.html">施設・窓口案内</a>
+    </div>
+  </div>
+</section>
+
+<section class="section notice">
+  <div class="container">
+    <h2 class="section-title">市からのお知らせ</h2>
+    <ul class="news-list">
+      <li>
+        <span class="date">2026年11月1日</span>
+        <span class="tag">お知らせ</span>
+        <a href="news.html">市広報紙「広報なぎはま」11月号を発行しました</a>
+      </li>
+      <li>
+        <span class="date">2026年10月28日</span>
+        <span class="tag">イベント</span>
+        <a href="news.html">市民文化祭の開催について</a>
+      </li>
+      <li>
+        <span class="date">2026年10月20日</span>
+        <span class="tag">募集</span>
+        <a href="news.html">市民意識調査へのご協力をお願いします</a>
+      </li>
+    </ul>
+    <p style="text-align:right;font-size:12px">
+      <a href="news.html">お知らせ一覧を見る　›</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">凪ヶ浜市の魅力</h2>
+    <div class="photo-grid">
+      <a href="events.html" class="photo-card">
+        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=700&q=80" alt="日本の街並み">
+        <p>観光・まち歩き　›</p>
+      </a>
+      <a href="events.html" class="photo-card">
+        <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=700&q=80" alt="自然の風景">
+        <p>自然と四季　›</p>
+      </a>
+      <a href="events.html" class="photo-card">
+        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=700&q=80" alt="建築と街並み">
+        <p>市内の施設　›</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">市政情報</h2>
+    <div class="info-box">
+      <p><a href="government.html">市長の部屋　›</a></p>
+      <p><a href="government.html">市議会　›</a></p>
+      <p><a href="government.html">予算・財政状況　›</a></p>
+      <p><a href="government.html">市の計画・政策　›</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section notice">
+  <div class="container">
+    <h2 class="section-title">市役所からのご案内</h2>
+    <div class="info-box">
+      <strong>凪ヶ浜市役所</strong>
+      <p>開庁時間：平日 8時30分～17時15分</p>
+      <p>所在地・各課のご案内は下記をご覧ください。</p>
+      <a href="office.html">市役所案内を見る　›</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-name">凪ヶ浜市</div>
+    <div class="footer-small">NAGIHAMA CITY OFFICIAL WEBSITE</div>
+    <p style="font-size:12px">市役所案内　｜　お問い合わせ　｜　サイトマップ</p>
+    <div class="footer-bottom">
+      <p>※このウェブサイトは架空の自治体「凪ヶ浜市」を題材とした創作物です。掲載されている情報・施設等は実在しません。</p>
+      <p>Copyright © Nagihama City. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
