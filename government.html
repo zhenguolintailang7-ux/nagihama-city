@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>市政情報｜凪ヶ浜市</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN",sans-serif;color:#293946;line-height:1.8}
+a{color:inherit;text-decoration:none}
+.container{width:92%;max-width:1050px;margin:auto}
+.topbar{background:#f2f5f7;padding:7px 0;font-size:12px;color:#596d7b}
+header{border-bottom:1px solid #dce3e8}
+.header-main{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-size:25px;font-weight:700;letter-spacing:2px}
+.logo small{display:block;font-size:11px;letter-spacing:3px;color:#778894}
+.search{border:1px solid #ccd6de;padding:7px 12px;border-radius:4px;font-size:12px;color:#61717e}
+nav{display:flex;overflow-x:auto;white-space:nowrap;border-top:1px solid #edf0f2}
+nav a{padding:13px 16px;font-size:13px;font-weight:600;border-right:1px solid #edf0f2}
+nav a:hover{background:#edf3f6}
+.page-title{background:#f1f5f7;padding:32px 0}
+.breadcrumb{font-size:11px;color:#778894;margin-bottom:12px}
+h1{font-size:27px;margin:0}
+.lead{font-size:13px;color:#667985;margin-top:8px}
+main{padding:30px 0 55px}
+.section-title{font-size:19px;border-left:4px solid #467d9b;padding-left:12px;margin:35px 0 17px}
+.intro{font-size:13px;color:#5d6d79}
+.hero{width:100%;height:210px;object-fit:cover;border-radius:4px;display:block}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{border:1px solid #dce4e9;border-radius:4px;padding:17px;background:white;min-height:115px}
+.card:hover{background:#f4f7f9}
+.card h3{font-size:15px;margin:0 0 7px;color:#315e78}
+.card p{font-size:11px;color:#71808a;margin:0}
+.arrow{float:right;color:#66859a}
+.message{background:#f3f6f8;padding:20px;border-radius:4px}
+.message h3{font-size:17px;margin:0 0 10px}
+.message p{font-size:13px;color:#596b77}
+.info{border-top:1px solid #dce4e9}
+.info div{padding:13px 5px;border-bottom:1px solid #dce4e9;font-size:13px}
+.info strong{display:block;font-size:12px;color:#436b83}
+.photo-caption{font-size:10px;color:#89949c;margin-top:5px}
+.back{text-align:center;margin:40px 0}
+.back a{display:inline-block;border:1px solid #cbd6de;padding:10px 25px;border-radius:4px;font-size:13px}
+footer{background:#263d50;color:white;padding:30px 0 18px}
+.footer-name{font-size:21px;font-weight:700}
+.footer-small{font-size:11px;color:#d2dce3}
+.footer-bottom{border-top:1px solid #637687;margin-top:20px;padding-top:12px;font-size:10px;color:#d2dce3}
+@media(min-width:700px){
+.grid{grid-template-columns:repeat(3,1fr)}
+.hero{height:330px}
+h1{font-size:32px}
+.message{padding:30px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+<div class="container">凪ヶ浜市公式ホームページ</div>
+</div>
+
+<header>
+<div class="container header-main">
+<a href="index.html" class="logo">
+凪ヶ浜市
+<small>NAGIHAMA CITY</small>
+</a>
+<span class="search">サイト内検索　⌕</span>
+</div>
+<nav>
+<a href="index.html">ホーム</a>
+<a href="news.html">市からのお知らせ</a>
+<a href="government.html">市政情報</a>
+<a href="life.html">暮らし・手続き</a>
+<a href="events.html">観光・イベント</a>
+<a href="office.html">市役所案内</a>
+</nav>
+</header>
+
+<section class="page-title">
+<div class="container">
+<div class="breadcrumb">ホーム　›　市政情報</div>
+<h1>市政情報</h1>
+<p class="lead">市の取り組みや行政運営に関する情報をご案内します。</p>
+</div>
+</section>
+
+<main class="container">
+
+<img class="hero"
+src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1400"
+alt="都市の街並み">
+
+<p class="photo-caption">都市の風景</p>
+
+<h2 class="section-title">市政情報を探す</h2>
+
+<div class="grid">
+
+<a href="#mayor" class="card">
+<h3>市長の部屋 <span class="arrow">›</span></h3>
+<p>市長のあいさつや市政への考え方をご紹介します。</p>
+</a>
+
+<a href="#outline" class="card">
+<h3>凪ヶ浜市の概要 <span class="arrow">›</span></h3>
+<p>市の基本情報や沿革、人口などをご案内します。</p>
+</a>
+
+<a href="#policy" class="card">
+<h3>政策・計画 <span class="arrow">›</span></h3>
+<p>市の基本構想や各種行政計画について。</p>
+</a>
+
+<a href="#assembly" class="card">
+<h3>市議会 <span class="arrow">›</span></h3>
+<p>議会の日程や会議情報についてご案内します。</p>
+</a>
+
+<a href="#finance" class="card">
+<h3>財政情報 <span class="arrow">›</span></h3>
+<p>予算や決算、市の財政状況について。</p>
+</a>
+
+<a href="#rules" class="card">
+<h3>条例・規則 <span class="arrow">›</span></h3>
+<p>市の条例や規則に関する情報をご覧いただけます。</p>
+</a>
+
+</div>
+
+<h2 class="section-title" id="mayor">市長の部屋</h2>
+
+<div class="message">
+<h3>市民の皆さまとともに、これからのまちづくりを。</h3>
+<p>
+日頃より市政へのご理解とご協力をいただき、ありがとうございます。
+本市では、市民の皆さまが安心して暮らし続けられるまちを目指し、
+地域の特性を生かしたまちづくりに取り組んでまいります。
+</p>
+<p style="text-align:right;font-size:12px">
+凪ヶ浜市長
+</p>
+</div>
+
+<h2 class="section-title" id="outline">凪ヶ浜市の概要</h2>
+
+<div class="info">
+<div><strong>自治体名</strong>凪ヶ浜市</div>
+<div><strong>所在地</strong>東京都凪ヶ浜市中央一丁目</div>
+<div><strong>市制施行</strong>昭和期</div>
+<div><strong>行政区域</strong>市内各地域</div>
+<div><strong>市の行政機関</strong>凪ヶ浜市役所</div>
+</div>
+
+<h2 class="section-title" id="policy">政策・計画</h2>
+<div class="info">
+<div>総合計画　›</div>
+<div>都市計画・まちづくり　›</div>
+<div>環境基本計画　›</div>
+<div>地域福祉計画　›</div>
+<div>防災・危機管理計画　›</div>
+</div>
+
+<h2 class="section-title" id="assembly">市議会</h2>
+<div class="info">
+<div>市議会の概要　›</div>
+<div>議会日程　›</div>
+<div>会議録　›</div>
+<div>議員紹介　›</div>
+</div>
+
+<h2 class="section-title" id="finance">財政情報</h2>
+<div class="info">
+<div>当初予算　›</div>
+<div>決算情報　›</div>
+<div>財政状況資料　›</div>
+</div>
+
+<h2 class="section-title" id="rules">条例・規則</h2>
+<div class="info">
+<div>条例一覧　›</div>
+<div>規則一覧　›</div>
+<div>告示・公告　›</div>
+</div>
+
+<div class="back">
+<a href="index.html">‹　トップページへ戻る</a>
+</div>
+
+</main>
+
+<footer>
+<div class="container">
+<div class="footer-name">凪ヶ浜市</div>
+<div class="footer-small">NAGIHAMA CITY OFFICIAL WEBSITE</div>
+<p style="font-size:12px">市役所案内　｜　お問い合わせ　｜　サイトマップ</p>
+<div class="footer-bottom">
+<p>※このウェブサイトは架空の自治体「凪ヶ浜市」を題材とした創作物です。掲載されている情報・施設等は実在しません。</p>
+<p>Copyright © Nagihama City. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
